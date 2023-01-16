@@ -74,6 +74,12 @@ body {
   fill: currentColor;
 }
 
+.contact-icon:hover,
+.contact-icon:focus {
+  color: var(--higlight-color);
+  background-color: var(--background-color);
+}
+
 .header-address,
 .header-phone {
   font-weight: 500;
@@ -427,7 +433,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-box:hover {
+.icon-client:hover,
+.customers-box:hover,
+.icon-client:focus,
+.customers-box:focus {
   fill: var(--higlight-color);
   border-color: var(--higlight-color);
 }
@@ -559,6 +568,11 @@ body {
   color: var(--support-color);
 
   margin: 0 24px 20px;
+}
+
+.project-descrip {
+  border: 1px solid black;
+  border-top: none;
 }
 
 /* Footer */
