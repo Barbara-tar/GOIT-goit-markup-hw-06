@@ -377,6 +377,7 @@ body {
   input[type="checkbox"]:checked
   + .modal-form-checkbox-svg {
   opacity: 1;
+  position: absolute;
 }
 
 .modal-form-regulations-link {
@@ -767,7 +768,7 @@ body {
 }
 
 .footer-address-link-u {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-address-link:hover,
