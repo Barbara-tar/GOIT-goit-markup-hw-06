@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/modern-normalize.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!--Nagłówek makiety-->
@@ -131,7 +131,7 @@
           </ul>
         </div>
       </section>
-      <!--What we do-->
+      <!--What We Do-->
       <section class="works section">
         <div class="container">
           <h2 class="works-title">What we do</h2>
@@ -166,7 +166,7 @@
           </ul>
         </div>
       </section>
-      <!--Nasz zespół-->
+      <!--Our Team-->
       <section class="team section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -356,42 +356,42 @@
           <ul class="customers-list">
             <li>
               <a href="#" class="customers-box">
-                <svg class="icon-client" width="106" height="60">
+                <svg class="customers-icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="customers-box">
-                <svg class="icon-client" width="106" height="60">
+                <svg class="customers-icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="customers-box">
-                <svg class="icon-client" width="106" height="60">
+                <svg class="customers-icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="customers-box">
-                <svg class="icon-client" width="106" height="60">
+                <svg class="customers-icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="customers-box">
-                <svg class="icon-client" width="106" height="60">
+                <svg class="customers-icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#" class="customers-box">
-                <svg class="icon-client" width="106" height="60">
+                <svg class="customers-icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client-6"></use>
                 </svg>
               </a>
@@ -450,22 +450,26 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="sign-up">
-        <h2 class="sign-up-title">SUBSCRIBE TO THE NEWSLETTER</h2>
-        <input
-          type="email"
-          name="email"
-          class="sign-up-text"
-          required
-          placeholder="E-mail"
-        />
-        <button type="submit" class="sign-up-button">
-          Subscribe
-          <svg width="24" height="24">
-            <use href="./images/icons.svg#icon-icon-send"></use>
-          </svg>
-        </button>
+        <div>
+          <h2 class="sign-up-title">SUBSCRIBE TO THE NEWSLETTER</h2>
+          <form class="sign-up">
+            <label>
+              <input
+                type="email"
+                name="email"
+                class="sign-up-text"
+                required
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="sign-up-button">
+              Zapisz się
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!--Modal window-->
@@ -527,7 +531,7 @@
               Comments
               <textarea
                 name="comment"
-                placeholder="Wprowadź tekst"
+                placeholder="Put in comments"
                 class="modal-form-comment"
               ></textarea>
             </label>
@@ -546,7 +550,7 @@
               <span class="modal-form-regulations-text">
                 I agree with the newsletter and accept the
                 <a class="modal-form-regulations-link" href="#">Terms</a>
-                and
+                ans
                 <a class="modal-form-regulations-link" href="#">Conditions.</a>
               </span>
             </label>
