@@ -168,7 +168,7 @@ body {
       var(--hero-gradient),
       var(--hero-gradient)
     ),
-    url("../images/hero_underlay.jpg");
+    url("../images/background.jpg");
 }
 
 .hero-items {
