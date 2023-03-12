@@ -836,6 +836,7 @@ body {
 
 .sign-up-button {
   fill: var(--white-color);
+  color: var(--white-color);
   background-color: var(--higlight-color);
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
