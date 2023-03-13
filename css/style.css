@@ -266,10 +266,10 @@ body {
   cursor: pointer;
 }
 
-.hero-button-close {
-  transition-property: color, var(--highlight-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.hero-button-close:hover,
+.hero-button-close:focus {
+  background-color: var(--higlight-color);
+  fill: var(--white-color);
 }
 
 .modal-title {
