@@ -369,14 +369,14 @@ body {
   position: absolute;
   top: 10%;
   left: 15px;
-  transform: translateY(-15%);
+  transform: translateY(-10%);
 }
 
 .modal-form-checkbox-svg {
   position: absolute;
   top: 10%;
   left: 15px;
-  transform: translateY(-15%);
+  transform: translateY(-10%);
   opacity: 0;
 }
 
@@ -409,6 +409,13 @@ body {
   transition-property: color, var(--highlight-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-button:hover,
+.hero-button-close:focus,
+.modal-form-button:focus,
+.hero-button-closehover {
+  background-color: var(--higlight-color);
 }
 
 /* Nasze atuty, Czym się zajmujemy i Nasz zespół  */
