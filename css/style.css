@@ -367,14 +367,14 @@ body {
   border-radius: 2px;
 
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15px;
   transform: translateY(-15%);
 }
 
 .modal-form-checkbox-svg {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15px;
   transform: translateY(-15%);
   opacity: 0;
