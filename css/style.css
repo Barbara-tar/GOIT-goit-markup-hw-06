@@ -411,14 +411,6 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-button:hover,
-.hero-button-close:focus,
-.modal-form-button:focus,
-.hero-button-close:hover {
-  background-color: var(--white-color);
-  color: var(--highlight-color);
-}
-
 /* Nasze atuty, Czym się zajmujemy i Nasz zespół  */
 
 .list {
