@@ -414,8 +414,9 @@ body {
 .modal-form-button:hover,
 .hero-button-close:focus,
 .modal-form-button:focus,
-.hero-button-closehover {
-  background-color: var(--higlight-color);
+.hero-button-close:hover {
+  background-color: var(--white-color);
+  color: var(--highlight-color);
 }
 
 /* Nasze atuty, Czym się zajmujemy i Nasz zespół  */
