@@ -266,6 +266,12 @@ body {
   cursor: pointer;
 }
 
+.hero-button-close {
+  transition-property: color, var(--highlight-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-title {
   font-size: 20px;
   line-height: 1.15;
@@ -400,7 +406,7 @@ body {
   margin: 20px auto 0;
   display: block;
 
-  transition-property: color, var(--background-color);
+  transition-property: color, var(--highlight-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
