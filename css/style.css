@@ -267,7 +267,9 @@ body {
 }
 
 .hero-button-close:hover,
-.hero-button-close:focus {
+.hero-button-close:focus,
+.modal-form-checkbox-svg:hover,
+.modal-form-checkbox-svg:focus {
   background-color: var(--higlight-color);
   fill: var(--white-color);
 }
