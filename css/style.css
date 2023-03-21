@@ -380,6 +380,7 @@ body {
   left: 15px;
   transform: translateY(-10%);
   opacity: 0;
+  fill: none;
 }
 
 .modal-form-regulations
